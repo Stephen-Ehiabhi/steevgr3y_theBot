@@ -1,0 +1,17 @@
+{
+  "name": "buddy_bot",
+  "version": "1.0.0",
+  "description": "chat_bot thatsend messages like a Nigerian human",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "author": "steevgr3y",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "nodemon": "^2.0.6",
+    "telegraf": "^3.38.0"
+  }
+}
